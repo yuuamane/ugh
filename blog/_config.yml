@@ -1,0 +1,45 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               
+url:                 https://faaez.co.in
+paginate:            1
+baseurl:             ""
+
+
+# seo
+site: "A programming blog by Faaez Razeen"
+description: "A blog that records Faaez's programming journey."
+logo: /images/fr-logo.png
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Faaez Razeen
+  url:               faaez.co.in/me
+  email:             razeenfaaez@gmail.com
+
+# Custom var 
+version:             
+github:
+  repo:           
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+  
+ # Top Navbar
+pages_list:       
+  About: '/me'
+  Archive: '/archive'
+
+plugins:
+  - jekyll-seo-tag
